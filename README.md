@@ -10,7 +10,7 @@ Các đặc trưng (Features) bao gồm:
 - **Target (Biến mục tiêu):** math score (Điểm toán)
 - **Numerical Features (Dữ liệu số):** reading score, writing score
 - **Ordinal Features (Dữ liệu thứ bậc):** parental level of education, gender, lunch, test preparation course
-- **Nominal Features (Dữ liệu định danh):**race/ethnicity
+- **Nominal Features (Dữ liệu định danh):** race/ethnicity
 ## Luồng xử lý (Pipeline)
 Mã nguồn sử dụng ColumnTransformer và Pipeline để tiền xử lý dữ liệu một cách tối ưu trước khi đưa vào mô hình:
 - **Xử lý dữ liệu bị thiếu (Imputation):** Sử dụng giá trị trung vị (median) cho dữ liệu số và giá trị xuất hiện nhiều nhất (most_frequent) cho dữ liệu phân loại.
