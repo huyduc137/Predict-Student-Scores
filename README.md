@@ -7,9 +7,9 @@
 ## Cấu trúc dữ liệu
 Dự án yêu cầu file dữ liệu đầu vào có tên StudentScore.xls đặt ở cùng thư mục với file mã nguồn
 Các đặc trưng (Features) bao gồm:
-- **Target (Biến mục tiêu):**math score (Điểm toán)
-- **Numerical Features (Dữ liệu số):**reading score, writing score
-- **Ordinal Features (Dữ liệu thứ bậc):**parental level of education, gender, lunch, test preparation course
+- **Target (Biến mục tiêu):** math score (Điểm toán)
+- **Numerical Features (Dữ liệu số):** reading score, writing score
+- **Ordinal Features (Dữ liệu thứ bậc):** parental level of education, gender, lunch, test preparation course
 - **Nominal Features (Dữ liệu định danh):**race/ethnicity
 ## Luồng xử lý (Pipeline)
 Mã nguồn sử dụng ColumnTransformer và Pipeline để tiền xử lý dữ liệu một cách tối ưu trước khi đưa vào mô hình:
